@@ -8,7 +8,7 @@
 Require this package in your `composer.json` or install it by running:
 
 ```
-composer require niklasravnsborg/laravel-pdf
+composer require mahmods/laravel-pdf
 ```
 
 > Note: This package supports auto-discovery features of Laravel 5.5+, You only need to manually add the service provider and alias if working on Laravel version lower then 5.5
@@ -18,14 +18,14 @@ To start using Laravel, add the Service Provider and the Facade to your `config/
 ```php
 'providers' => [
 	// ...
-	niklasravnsborg\LaravelPdf\PdfServiceProvider::class
+	mahmods\LaravelPdf\PdfServiceProvider::class
 ]
 ```
 
 ```php
 'aliases' => [
 	// ...
-	'PDF' => niklasravnsborg\LaravelPdf\Facades\Pdf::class
+	'PDF' => mahmods\LaravelPdf\Facades\Pdf::class
 ]
 ```
 

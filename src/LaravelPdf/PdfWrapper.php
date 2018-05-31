@@ -1,6 +1,6 @@
 <?php
 
-namespace niklasravnsborg\LaravelPdf;
+namespace mahmods\LaravelPdf;
 
 use File;
 use View;
